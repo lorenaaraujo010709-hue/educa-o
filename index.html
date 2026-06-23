@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Nexus Study-Verse | Evolua seu Conhecimento</title>
+</head>
+<body>
+    <header class="topo">
+        <nav class="menu">
+            <div class="avatar-menu-container">
+                <a href="#" class="button-avatar" onclick="abrirModal('modal-avatar')">✨ Criar Avatar</a>
+            </div>
+            
+            <div class="logo-area">
+                <span class="logo-nexus">NEXUS</span><span class="logo-sub">_verse</span>
+            </div>
+            
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#chat-comunidade" class="nav-link">Chat</a></li>
+                <li class="nav-item"><a href="#cronograma" class="nav-link">Cronograma</a></li>
+                <li class="nav-item"><a href="#missoes" class="nav-link">Missões</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" onclick="abrirModal('modal-squads')">Squads</a></li>
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Mais ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#enem">Enem</a></li>
+                        <li><a href="#exercicios">Exercícios</a></li>
+                        <li><a href="#provas">Provas</a></li>
+                        <li><a href="#curiosidades">Curiosidades</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="button-container">
+                <a href="#" class="auth-link" onclick="abrirModal('modal-entrar')">Entrar</a>
+                <a href="#" class="auth-link btn-cadastrar-nav" onclick="abrirModal('modal-cadastrar')">Cadastrar</a>
+                <a href="#cronograma" class="button-cta">Começar Agora</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <section class="hero-section" id="home">
+            <div class="linear-container">
+                <div class="text-hero-container">
+                    <div class="hero-tags-wrapper">
+                        <span class="hero-badge-live">● LIVE</span>
+                        <span class="hero-badge">Season 1: Startups & Games</span>
+                    </div>
+                    <h1 class="titulo-hero">Estudar virou jogo.<br>Monte seu Squad e domine o amanhã.</h1>
+                    <p class="descricao-hero">Assista micro-pílulas de conteúdo de 3 minutos, conclua desafios práticos de código, arte ou criação, fature recompensas cosméticas reais e upe sua mente junto com seus amigos.</p>
+                    <div class="hero-actions">
+                        <a href="#missoes" class="hero-btn-primary">Escolher Primeira Missão</a>
+                        <a href="#" class="hero-btn-secondary" onclick="abrirModal('modal-squads')">Procurar Squad</a>
+                    </div>
+                </div>
+            </div>          
+        </section>
+
+        <section class="cronograma-section" id="cronograma">
+            <div class="section-header-clean">
+                <span class="section-tagline">Planejamento de Aprendizado</span>
+                <h2 class="section-title-premium">📆 Cronograma de Jornada Semanal</h2>
+                <p class="section-subtitle-premium">Organize seus objetivos de estudo com pílulas de conteúdo rápidas e atividades práticas.</p>
+            </div>
+
+           
+
+    <div class="timeline-container">
+        
+        <div class="timeline-step step-active">
+            <div class="step-day">SEG</div>
+            <div class="step-details">
+                <span class="module-tag tech">Ciências Humanas</span>
+                <h4>Análise e Estrutura Crítica da Redação</h4>
+                <p class="step-meta">Dominando os critérios de correção para alcançar a nota máxima.</p>
+                <div class="step-pills">
+                    <span class="pill-item text-done">🎥 Vídeo Curto (3min)</span>
+                    <span class="pill-item text-done">✏️ Atividade Prática</span>
+                </div>
+            </div>
+            <div class="step-points">🔋 +100 XP</div>
+        </div>
+
+        <div class="timeline-step">
+            <div class="step-day" style="color: #a855f7;">TER</div> <div class="step-details">
+                <span class="module-tag design" style="background-color: rgba(168, 85, 247, 0.1); color: #a855f7;">Ciências da Natureza</span>
+                <h4>Métodos e Práticas de Biologia Aplicada</h4>
+                <p class="step-meta">Análise de ecossistemas e fixação de conceitos recorrentes em exames.</p>
+                <div class="step-pills">
+                    <span class="pill-item">🎥 Vídeo Resumo (4min)</span>
+                    <span class="pill-item">📝 Questionário Analítico</span>
+                </div>
+            </div>
+            <div class="step-points" style="color: #22c55e; background-color: rgba(34, 197, 94, 0.05);">🔋 +150 XP</div>
+        </div>
+
+    </div>
+ 
+        </section>
+
+        <section class="comunidade-chat-section" id="chat-comunidade">
+            <div class="chat-wrapper-grid">
+                <div class="chat-intro-content">
+                    <span class="section-tagline">Ambiente Colaborativo</span>
+                    <h2 class="chat-section-title">INTERAÇÃO HUMANA EM TEMPO REAL</h2>
+                    <p class="chat-section-desc">Esclareça dúvidas complexas sem depender de respostas frias de Inteligências Artificiais. Aqui, estudantes e entusiastas se ajudam mutuamente.</p>
+                    <div class="chat-stats-badges">
+                        <div class="stat-badge">🟢 <strong>Online Agora:</strong> 87 membros ativos</div>
+                    </div>
+                </div>
+
+                <div class="chat-component-box">
+                    <div class="chat-box-header">
+                        <div class="chat-header-left">
+                            <span class="pulse-indicator-dot"></span>
+                            <h3>Canal de Discussões Gerais</h3>
+                        </div>
+                        <span class="chat-channel-tag">#Estudos</span>
+                    </div>
+
+                    <div class="chat-messages-container">
+                        <div class="chat-msg-row">
+                            <div class="user-avatar-placeholder"></div>
+                            <div class="msg-balloon-wrapper">
+                                <span class="chat-user-name">@lucas_silva <small class="user-rank">Nível 5</small></span>
+                                <p class="chat-msg-text">Pessoal, alguém pode me explicar de forma simples qual a melhor técnica de memorização para os tópicos de história geral?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chat-footer-inputs">
+                        <input type="text" placeholder="Digite sua mensagem para a comunidade..." class="chat-text-input">
+                        <button class="chat-send-button" onclick="alert('Mensagem enviada com sucesso!')">ENVIAR</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="missoes-section" id="missoes">
+            <div class="section-header-clean">
+                <span class="section-tagline">Daily Quests</span>
+                <h2 class="section-title-premium">⚔/ Quadro de Missões Ativas</h2>
+            </div>
+
+            <div class="card-container">
+                <div class="card-quest card-1">
+                    <div class="overlay">
+                        <span class="module-tag tech" style="margin-bottom: 8px;">Geografia Humana</span>
+                        <h3 class="card-title">Morfologia Espacial</h3>
+                        <p class="card-description">Entenda a evolução urbana e os impactos geopolíticos modernos.</p>
+                        <button class="card-button" onclick="alert('Quest Morfologia Espacial Iniciada! Recompensa: 200 XP')">Iniciar Quest</button>
+                    </div>
+                </div>
+                <div class="card-quest card-2">
+                    <div class="overlay">
+                        <span class="module-tag design" style="margin-bottom: 8px;">Química Avançada</span>
+                        <h3 class="card-title">Alquimia Orgânica</h3>
+                        <p class="card-description">Desvende as cadeias de carbono e suas aplicações cotidianas.</p>
+                        <button class="card-button" onclick="alert('Quest Alquimia Orgânica Iniciada! Recompensa: 250 XP')">Iniciar Quest</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="modelos" id="comunidade">
+            <div class="caixa-esquerda">
+                <div class="modelos-content">
+                    <h2 class="modelos-title">Exatas</h2>
+                    <a href="#" class="modelos-button" onclick="abrirModal('modal-squads')">Ver Trilhas</a>
+                </div>
+            </div>
+            <div class="caixa-direita">
+                <div class="modelos-content">
+                    <h2 class="modelos-title">Humanas</h2>
+                    <a href="#" class="modelos-button" onclick="abrirModal('modal-squads')">Ver Squads</a>
+                </div>
+            </div>
+        </section>
+
+        <div id="modal-avatar" class="modal-overlay">
+            <div class="modal-box modal-avatar-box">
+                <span class="modal-close" onclick="fecharModal('modal-avatar')">&times;</span>
+                <h3 class="modal-title">Crie seu Personagem</h3>
+                <p class="modal-subtitle">Personalize os atributos do seu boneco para interagir nos canais.</p>
+                
+                <div class="avatar-creator-grid">
+                    <div class="avatar-options-area">
+                        <div class="option-row">
+                            <label>Classe Base</label>
+                            <select id="select-classe" onchange="atualizarAvatarMock()">
+                                <option value="🧙‍♂️">Mago Dev (Exatas)</option>
+                                <option value="⚔️">Guerreiro Biálogo (Biológicas)</option>
+                                <option value="🏹">Arqueiro Historiador (Humanas)</option>
+                            </select>
+                        </div>
+                        <div class="option-row">
+                            <label>Cor da Aura</label>
+                            <div class="color-picker-mock">
+                                <span class="color-dot" style="background: #00f2fe;" onclick="mudarAura('#00f2fe')"></span>
+                                <span class="color-dot" style="background: #7000ff;" onclick="mudarAura('#7000ff')"></span>
+                                <span class="color-dot" style="background: #e11d48;" onclick="mudarAura('#e11d48')"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="avatar-preview-area" id="avatar-preview-box">
+                        <div class="dummy-avatar" id="avatar-preview-emoji">🧙‍♂️</div>
+                    </div>
+                </div>
+                <button class="modal-btn-submit" style="width: 100%;" onclick="fecharModal('modal-avatar')">Salvar Customização</button>
+            </div>
+        </div>
+
+        <div id="modal-squads" class="modal-overlay">
+            <div class="modal-box modal-avatar-box" style="max-width: 550px;">
+                <span class="modal-close" onclick="fecharModal('modal-squads')">&times;</span>
+                <h3 class="modal-title">⚔️ Recrutamento de Squad</h3>
+                <p class="modal-subtitle">Escolha o seu clã e junte-se a outros jogadores.</p>
+                
+                <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 24px;">
+                    <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(0, 242, 254, 0.2); padding: 18px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h4 style="color: #00f2fe; font-size: 16px; font-weight: 700;">Guilda de Exatas</h4>
+                            <p style="color: rgba(255,255,255,0.6); font-size: 13px; margin-top: 4px;">Foco em Matemática, Física e Programação.</p>
+                        </div>
+                        <button class="chat-send-button" style="padding: 10px 16px; font-size: 12px;" onclick="alert('Inscrição enviada para a Guilda de Exatas!')">Entrar</button>
+                    </div>
+
+                    <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(112, 0, 255, 0.2); padding: 18px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h4 style="color: #a855f7; font-size: 16px; font-weight: 700;">Clã de Biomédicas</h4>
+                            <p style="color: rgba(255,255,255,0.6); font-size: 13px; margin-top: 4px;">Foco em Biologia, Química e Anatomia.</p>
+                        </div>
+                        <button class="chat-send-button" style="padding: 10px 16px; font-size: 12px; background: linear-gradient(135deg, #7000ff, #e11d48);" onclick="alert('Inscrição enviada para o Clã de Biomédicas!')">Entrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-entrar" class="modal-overlay">
+            <div class="modal-box">
+                <span class="modal-close" onclick="fecharModal('modal-entrar')">&times;</span>
+                <h3 class="modal-title">Acessar Conta</h3>
+                <p class="modal-subtitle">Bem-vindo de volta! Insira suas credenciais.</p>
+                <div style="display: flex; flex-direction: column; gap: 14px; margin-top: 20px;">
+                    <input type="email" placeholder="Seu e-mail" class="chat-text-input" style="width: 100%;">
+                    <input type="password" placeholder="Sua senha" class="chat-text-input" style="width: 100%;">
+                    <button class="modal-btn-submit" onclick="fecharModal('modal-entrar'); alert('Login efetuado com sucesso!')">Entrar</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-cadastrar" class="modal-overlay">
+            <div class="modal-box">
+                <span class="modal-close" onclick="fecharModal('modal-cadastrar')">&times;</span>
+                <h3 class="modal-title">Nova Identidade</h3>
+                <p class="modal-subtitle">Crie seu registro para começar a subir de nível.</p>
+                <div style="display: flex; flex-direction: column; gap: 14px; margin-top: 20px;">
+                    <input type="text" placeholder="Nome de usuário (@)" class="chat-text-input" style="width: 100%;">
+                    <input type="email" placeholder="E-mail válido" class="chat-text-input" style="width: 100%;">
+                    <input type="password" placeholder="Senha segura" class="chat-text-input" style="width: 100%;">
+                    <button class="modal-btn-submit" onclick="fecharModal('modal-cadastrar'); alert('Conta criada com sucesso!')">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="rodape"></footer>
+
+    <script>
+        function abrirModal(id) { document.getElementById(id).classList.add('active'); }
+        function fecharModal(id) { document.getElementById(id).classList.remove('active'); }
+        function atualizarAvatarMock() {
+            const select = document.getElementById('select-classe');
+            document.getElementById('avatar-preview-emoji').innerText = select.value;
+        }
+        function mudarAura(cor) { document.getElementById('avatar-preview-box').style.borderColor = cor; }
+    </script>
+</body>
+</html>
+
